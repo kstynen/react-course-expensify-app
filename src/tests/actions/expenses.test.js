@@ -11,7 +11,6 @@ import {
   startRemoveExpense 
 } from '../../actions/expenses';
 import expenses from '../fixtures/expenses';
-import { start } from 'repl';
 import database from '../../firebase/firebase';
 
 const createMockStore = configureMockStore([thunk]);
